@@ -188,7 +188,6 @@ class Pipeline {
         for (auto& activeObject : activeObjects) {
             activeObject.workerThread = new std::thread(&ActiveObject::runTasks, &activeObject, std::ref(activeObjects), std::ref(send_mutex));
             // cout << "[DEBUG] Worker thread started for ActiveObject ID: " << activeObject.id << endl;
-
             // cout << "[DEBUG] Worker thread started for ActiveObject." << endl;
         }
     }

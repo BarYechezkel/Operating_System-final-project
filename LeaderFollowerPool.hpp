@@ -21,7 +21,6 @@ class LeaderFollowerPool {
    public:
     LeaderFollowerPool(int numThreads, std::mutex& ansMutex);
 
-    // LeaderFollowerPool(int numThreads, const MST_graph& mst);
     ~LeaderFollowerPool();
 
     // Add an event to the queue

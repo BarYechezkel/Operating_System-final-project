@@ -1,9 +1,11 @@
-Newgraph 2 1 0 1 200 kruskal                 
-Newgraph 2 1 1 0 100 Prim                 
+Newgraph 2 1 0 1 200  
+Newgraph 2 1 1 0 100        
 Newgraph 2 1 0 1 300 kruskal    
 Newgraph 3 3 0 1 5 1 2 44 2 0 1   
 Newgraph 3 3 0 1 5 1 2 44 0 2 100 
  prim    
+ kruskal
 
 
 Leader_Follower
+Pipeline
